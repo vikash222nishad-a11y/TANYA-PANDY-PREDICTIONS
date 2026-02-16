@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="hi">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TANYA PANDEY | Cricket Expert</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        
+        body {
+            background-color: #fcfdf7;
+            /* Bracket/Grid Background */
+            background-image: 
+                linear-gradient(#e5e5e5 1px, transparent 1px),
+                linear-gradient(90deg, #e5e5e5 1px, transparent 1px);
+            background-size: 20px 20px;
+            display: flex; justify-content: center; min-height: 100vh; padding: 25px 15px;
+        }
+
+        .card { width: 100%; max-width: 380px; text-align: center; }
+
+        .profile-border {
+            width: 130px; height: 130px;
+            border-radius: 50%;
+            border: 5px solid #c5d65d;
+            margin: 0 auto 15px;
+            background: white; padding: 3px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .profile-pic { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2px solid #f1c40f; }
+
+        /* Professional Name */
+        h1 { 
+            color: #f1c40f; 
+            font-size: 26px; 
+            font-weight: 700; 
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+        }
+
+        .member-count { 
+            color: #f1c40f; font-weight: 700; font-size: 16px; margin-bottom: 20px; display: inline-block;
+            background: rgba(0, 0, 0, 0.04); padding: 4px 15px; border-radius: 50px;
+        }
+
+        /* Glowing Emojis and Tags */
+        .tags { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
+        .tag { 
+            padding: 6px 12px; border-radius: 50px; font-size: 10px; font-weight: 700; color: white; 
+            display: flex; align-items: center; gap: 5px; text-transform: uppercase;
+        }
+        .tag-elite { 
+            background: #96a345; 
+            box-shadow: 0 0 10px #96a345; /* Glow */
+        }
+        .tag-live { 
+            background: #ff5e5e; 
+            box-shadow: 0 0 10px #ff5e5e; /* Glow */
+            animation: pulse 2s infinite; 
+        }
+
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
+
+        /* Stats Grid */
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 25px; }
+        .stat-box { background: #4d564a; padding: 15px 5px; border-radius: 12px; color: white; }
+        .stat-box h2 { font-size: 18px; color: #f1c40f; text-shadow: 0 0 5px #f1c40f; }
+        .stat-box p { font-size: 9px; font-weight: 600; text-transform: uppercase; opacity: 0.9; }
+
+        /* Join Button */
+        .join-btn {
+            display: flex; align-items: center; justify-content: center; gap: 12px;
+            background: linear-gradient(90deg, #2d5a27, #a11b1b);
+            color: white; text-decoration: none; padding: 18px; border-radius: 12px;
+            font-size: 20px; font-weight: 800; margin-bottom: 25px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        /* Features Section with Glowing Emojis */
+        .features-card {
+            background: #4d564a; padding: 20px 10px; border-radius: 15px;
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px;
+        }
+        .feature-item { color: #ffffff; font-size: 9px; font-weight: 700; text-align: center; }
+        .feature-item i { 
+            font-size: 22px; margin-bottom: 8px; display: block; 
+            filter: drop-shadow(0 0 5px currentColor); /* Glowing effect */
+        }
+        
+        .g-v { color: #2ecc71; }
+        .g-s { color: #f1c40f; }
+        .g-p { color: #ff4d4d; }
+        .g-r { color: #f39c12; }
+
+        /* Footer Section */
+        .footer { 
+            margin-top: 30px; 
+            font-size: 11px; 
+            color: #888; 
+            line-height: 1.6;
+        }
+    </style>
+ </head>
+ <body>
+  <div class="card">
+   <div class="profile-border">
+    <img src="https://i.ibb.co/BHFjL9yK/profile.jpg" alt="Tanya" class="profile-pic">
+   </div>
+   <h1>🏏 TANYA PANDEY !!</h1>
+   <span class="member-count">👥 25K+ Active Members</span>
+   <div class="tags">
+    <span class="tag tag-elite">🏆 EXPERT ANALYSIS</span> <span class="tag tag-live">⚡ LIVE UPDATES</span>
+   </div>
+   <div class="stats-grid">
+    <div class="stat-box">
+     <h2>25,892</h2>
+     <p>TIPS</p>
+    </div>
+    <div class="stat-box">
+     <h2>94%</h2>
+     <p>WIN</p>
+    </div>
+    <div class="stat-box">
+     <h2>4.9★</h2>
+     <p>RATING</p>
+    </div>
+   </div>
+   <a href="https://t.me/+V5_BtD4cfGs4Zjll" class="join-btn"> <i class="fa-brands fa-telegram"></i> <span>JOIN FREE CHANNEL</span> </a>
+   <div class="features-card">
+    <div class="feature-item">
+     <i class="fa-solid fa-circle-check g-v"></i>VERIFIED
+    </div>
+    <div class="feature-item">
+     <i class="fa-solid fa-shield-halved g-s"></i>SECURE
+    </div>
+    <div class="feature-item">
+     <i class="fa-solid fa-chart-line g-p"></i>PROFITABLE
+    </div>
+    <div class="feature-item">
+     <i class="fa-solid fa-star g-r"></i>TOP RATED
+    </div>
+   </div>
+   <div class="footer">
+    ©2017 TANYA PANDEY !! All rights reserved.
+    <br>
+    🏏 Professional Cricket Analysis &amp; Predictions
+   </div>
+  </div>
+ </body>
+</html>
